@@ -1,3 +1,42 @@
 * {
-    font-family: 'Roboto', sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
+}
+
+header,
+section,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1170px;
+}
+
+header {
+  background-color: #6500ff;
+}
+
+header .logo {
+  position: relative;
+}
+
+header .logo span {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+
+  position: absolute;
+  bottom: -5px;
+  left: 25px;
+
+  color: #fff;
+}
+
+a {
+  font-size: 18px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
 }
