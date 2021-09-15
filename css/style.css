@@ -145,6 +145,21 @@ a {
   width: 25px;
 }
 
-#cite .container span {
+#cite .container {
+  width: 550px;
+  text-align: center;
   color: #000;
+  display: flex;
+  flex-direction: column;
+}
+#cite .container span {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+#cite {
+  margin-top: 50px;
+}
+#cite .container b {
+  font-weight: bold;
+  color:#FB8122;
 }
