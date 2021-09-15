@@ -16,11 +16,29 @@ footer {
 header {
   background-color: #6500ff;
 }
-
+header .container {
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+   align-items: center;
+}
 header .logo {
   position: relative;
 }
-
+header nav {
+margin-left: 380px;
+margin-right: 100px;
+}
+header nav a:not(:last-of-type){
+  margin-right: 50px;
+}
+header button {
+  padding: 0px 30px;
+  background-color: #FF5F60;
+  color: #fff;
+  border-radius: 35px;
+  height: 45px;
+}
 header .logo span {
   font-size: 40px;
   font-weight: bold;
