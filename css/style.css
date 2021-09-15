@@ -1,7 +1,6 @@
 * {
   font-family: "Raleway", sans-serif !important;
   font-weight: 500;
-  color: #fff;
 }
 
 header,
@@ -9,6 +8,7 @@ section,
 footer {
   display: flex;
   justify-content: center;
+  color: #fff;
 }
 
 .container {
@@ -143,4 +143,8 @@ a {
 
 #admission form button img {
   width: 25px;
+}
+
+#cite .container span {
+  color: #000;
 }
