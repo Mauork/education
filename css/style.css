@@ -152,14 +152,133 @@ a {
   display: flex;
   flex-direction: column;
 }
-#cite .container span {
+#cite span {
   margin-bottom: 20px;
   font-style: italic;
 }
 #cite {
   margin-top: 50px;
 }
-#cite .container b {
+#cite b {
   font-weight: bold;
   color:#FB8122;
+}
+#cite ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#cite li {
+  width: 10px;
+  height: 10px;
+  background-color: #FB8122;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+#cite li:not(:last-of-type){
+  margin-right: 10px;
+}
+#cite li.active, #cite li:hover {
+  opacity: 1;
+}
+.infoblock, .list{
+  margin-top: 150px;
+}
+.infoblock .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoblock img {
+  margin-right: 120px;
+}
+.infoblock.inverted img {
+  margin-right: 0;
+  margin-left: 120px;
+}
+.infoblock h3 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 500;
+}
+.infoblock p {
+  width: 500px;
+  margin-top: 50px;
+  font-size: 17px;
+  color: #8c8c8c;
+}
+.infoblock button{
+  margin-top: 50px;
+}
+.list .container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .item{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list h3 {
+  color: #333;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.list p {
+  color: #8c8c8c;
+  max-width: 300px;
+  font-size: 17px;
+  margin-top: 25px;
+  text-align: center;
+}
+.img-block {
+  width: 136px;
+  height: 136px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.img-block.global{
+  background-color: #4BD2FF;
+  box-shadow: 0px 5px 25px 13px rgba(75, 210, 255, 0.27);
+}
+.img-block.brainstorm{
+  background-color: #694bff;
+  box-shadow: 0px 5px 25px 13px rgba(105, 75, 255, 0.27);
+}
+.img-block.graduation{
+  background-color: #ffb14b;
+  box-shadow: 0px 5px 25px 13px rgba(255, 177, 75, 0.27);
+}
+footer {
+  margin-top: 100px;
+}
+footer .container{
+  border-top: 2px solid #f3f0ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.copyright {
+  font-size: 14px;
+  color: #c9c9c9;
+}
+.copyright .divider{
+  margin: 0 15px;
+}
+footer a {
+  color: #c9c9c9;
+  margin-right: 50px;
+}
+footer a:last-of-type {
+  margin-right: 0;
+}
+footer a:hover {
+color: #FB8122;
+transition: .3s;
 }
