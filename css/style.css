@@ -282,3 +282,79 @@ footer a:hover {
 color: #FB8122;
 transition: .3s;
 }
+@media screen and (max-width:1170px) {
+  .container {
+    width: 1024px;
+  }
+  header nav{
+    margin-left: 160px;
+  }
+  .infoblock .container{
+    flex-direction: column;
+  }
+  .infoblock.inverted .container{
+    flex-direction: column-reverse;
+  }
+  .infoblock img{
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .infoblock h3{
+    text-align: center;
+  }
+  .infoblock p{
+    width: auto;
+  }
+}
+@media screen and (max-width:1024px) {
+  .container {
+    width: 768px;
+  }
+  header nav{
+    margin-left: 50px;
+    margin-right: 50PX;
+  }
+  #banner .container{
+    flex-direction: column-reverse;
+  }
+  #banner img {
+    margin-bottom: 30px;
+  }
+  .list .item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .container{
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+}
+@media screen and (max-width:768px) {
+  .container {
+    width: 425px;
+  }
+  header .container{
+    flex-direction: column;
+  }
+  header nav{
+    margin: 0;
+  }
+  #banner img, .infoblock img{
+    width: 100%;
+  }
+}
+@media screen and (max-width:425px) {
+  .container {
+    width: 300px;
+  }
+  header nav{
+    flex-direction: column;
+    display: flex;
+  }
+  header nav a:not(:last-of-type){
+    margin: 0;
+  }
+  #admission form input {
+    width: 150px;
+  }
+  }
